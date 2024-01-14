@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 50px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    font-weight: 700;
+}
+
+.header--img {
+    width: 50px
+}
+
+.header--basket {
+    background-color: gray;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
