@@ -12,6 +12,7 @@ function app() {
       date={book.published_date}
       lang={book.language}
       genre={book.genre}
+      price={book.price}
       hasGift={book.hasGift}
       hasFreeShipping={book.hasFreeShipping}
     />)
@@ -20,7 +21,7 @@ function app() {
   return (<div className="container">
     <Header />
     <div className="card--container">
-    {bookElements}
+      {bookElements}
     </div>
   </div>
   )

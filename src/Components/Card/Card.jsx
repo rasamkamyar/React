@@ -11,16 +11,19 @@ function Card(props) {
             <span className="topic" >نویسنده : </span>
             <span>{props.author} </span>
         </h2>
-        <button className="card--button">افزودن به سبد خرید</button>
+        <div className="card--buy">
+            <button className="card--button">افزودن به سبد خرید</button>
+            <h3>{props.price}</h3>
+        </div>
         <div className="card--data">
-        <p>
-            <span className="topic">تاریخ انتشار : </span>
-            <span>{props.date}</span>
-        </p>
-        <p>
-            <span className="topic">ژانر : </span>
-            <span>{props.genre}</span>
-        </p>
+            <p>
+                <span className="topic">تاریخ انتشار : </span>
+                <span>{props.date}</span>
+            </p>
+            <p>
+                <span className="topic">ژانر : </span>
+                <span>{props.genre}</span>
+            </p>
         </div>
         {props.hasGift && <span className="gift"><i class="fa fa-gift"></i></span>}
         {props.hasFreeShipping && <span className="freeShipping">ارسال رایگان</span>}

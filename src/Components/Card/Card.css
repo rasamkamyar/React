@@ -69,9 +69,19 @@
 .card--button {
     color: white;
     text-align: center;
-    margin: 0 70px;
     cursor: pointer;
     border-radius: 10px;
     padding: 10px;
+    color: darkslategray;
+    font-weight: 900
+}
+
+.card--buy {
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
     background-color: darkslategray;
+    color: white;
 }

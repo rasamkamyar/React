@@ -1,3 +1,5 @@
+
+
 export default [
   {
     id: 1,
@@ -7,6 +9,7 @@ export default [
     language: "persian",
     genre: "تاریخ",
     imgSrc: "1.jpg",
+    price: " 360.000 تومان ",
     hasFreeShipping: false,
     hasGift: true
   },
@@ -18,6 +21,7 @@ export default [
     language: "greek",
     genre: "فلسفه",
     imgSrc: "2.jpg",
+    price: " 170.000 تومان ",
     hasFreeShipping: true,
     hasGift: true
   },
@@ -29,6 +33,7 @@ export default [
     language: "persian",
     genre: "شعر",
     imgSrc: "3.jpg",
+    price: " 300.000 تومان ",
     hasFreeShipping: true,
     hasGift: false
   },
@@ -40,6 +45,7 @@ export default [
     language: "persian",
     genre: "شعر",
     imgSrc: "4.jpg",
+    price: " 450.000 تومان ",
     hasFreeShipping: false,
     hasGift: true
   },
@@ -51,6 +57,7 @@ export default [
     language: "persian",
     genre: "شعر",
     imgSrc: "5.jpg",
+    price: " 350.000 تومان ",
     hasFreeShipping: true,
     hasGift: true
   },
@@ -62,6 +69,7 @@ export default [
     language: "english",
     genre: "عاشقانه",
     imgSrc: "6.jpg",
+    price: " 200.000 تومان ",
     hasFreeShipping: true,
     hasGift: true
   },
@@ -73,6 +81,7 @@ export default [
     language: "persian",
     genre: "عاشقانه",
     imgSrc: "7.jpg",
+    price: " 180.000 تومان ",
     hasFreeShipping: true,
     hasGift: false
   },
@@ -84,6 +93,7 @@ export default [
     language: "persian",
     genre: "شعر",
     imgSrc: "8.jpg",
+    price: " 400.000 تومان ",
     hasFreeShipping: false,
     hasGift: false
   },
@@ -95,6 +105,7 @@ export default [
     language: "persian",
     genre: "شعر",
     imgSrc: "9.jpg",
+    price: " 300.000 تومان ",
     hasFreeShipping: false,
     hasGift: false
   },
@@ -106,6 +117,7 @@ export default [
     language: "persian",
     genre: "شعر",
     imgSrc: "10.jpg",
+    price: " 270.000 تومان ",
     hasFreeShipping: false,
     hasGift: false
   },
@@ -117,6 +129,7 @@ export default [
     language: "persian",
     genre: "عاشقانه",
     imgSrc: "11.jpg",
+    price: " 300.000 تومان ",
     hasFreeShipping: true,
     hasGift: false
   },
@@ -128,6 +141,7 @@ export default [
     language: "persian",
     genre: "شعر",
     imgSrc: "12.jpg",
+    price: " 150.000 تومان ",
     hasFreeShipping: false,
     hasGift: true
   },
@@ -139,6 +153,7 @@ export default [
     language: "greek",
     genre: "شعر",
     imgSrc: "13.jpg",
+    price: " 210.000 تومان ",
     hasFreeShipping: true,
     hasGift: false
   },
@@ -150,6 +165,7 @@ export default [
     language: "greek",
     genre: "شعر",
     imgSrc: "14.jpg",
+    price: " 200.000 تومان ",
     hasFreeShipping: false,
     hasGift: false
   },
@@ -161,6 +177,7 @@ export default [
     language: "greek",
     genre: "درام",
     imgSrc: "15.jpg",
+    price: " 150.000 تومان ",
     hasFreeShipping: false,
     hasGift: true
   },
@@ -172,7 +189,8 @@ export default [
     language: "spanish",
     genre: "درام",
     imgSrc: "16.jpg",
-    hasFreeShipping: true,  
+    price: " 250.000 تومان ",
+    hasFreeShipping: true,
     hasGift: false
   },
 ];
