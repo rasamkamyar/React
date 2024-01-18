@@ -12,7 +12,8 @@ export default function Slider() {
 
 
     function changeSlider() {
-        setImageData(prevImage => [...prevImage, "book banner 1.jpg"])
+
+        setImageData(prevImage => !prevImage ? "banner.jpg" : "book banner 1.jpg")
     }
 
 
