@@ -1,0 +1,12 @@
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner--img {
+    /* padding: 50px; */
+    height: 300px;
+    width: 50%;
+    margin-bottom: 70px;
+}

@@ -1,5 +1,7 @@
+import React from "react"
 import Card from "./Components/Card/Card"
 import Header from "./Components/Header/Header"
+import Slider from "./Components/Slider/Slider"
 import Data from "./data"
 
 
@@ -17,14 +19,16 @@ function app() {
       hasFreeShipping={book.hasFreeShipping}
     />)
 
-
-  return (<div className="container">
-    <Header />
-    <div className="card--container">
-      {bookElements}
+  return (
+    <div className="container">
+      <Header />
+      <Slider />
+      <div className="card--container">
+        {bookElements}
+      </div>
     </div>
-  </div>
   )
 }
 
 export default app
+
