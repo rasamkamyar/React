@@ -13,12 +13,12 @@ export default function Slider() {
 
     function changeSlider() {
 
-        setImageData(prevImage => !prevImage ? "banner.jpg" : "book banner 1.jpg")
+        setImageData(prevImage => !prevImage)
     }
 
 
 
     return (<div className="banner" onClick={changeSlider}>
-        <img src={`../src/images/${imageData}`} className="banner--img" />
+        <img src={`../src/images/${imageData ? "banner.jpg" : "book banner 1.jpg"}`} className="banner--img" />
     </div>)
 }
